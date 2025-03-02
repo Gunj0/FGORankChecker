@@ -1,0 +1,6 @@
+@FGORankChecker.UI_HostAddress = http://localhost:5277
+
+GET {{FGORankChecker.UI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
