@@ -4,6 +4,10 @@
     <ProjectReference Include="..\FGORankChecker.Domain\FGORankChecker.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AngleSharp" Version="1.2.0" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
